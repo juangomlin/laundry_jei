@@ -32,7 +32,7 @@ public class Guest {
     private String firstName;
 
     @NotBlank
-    @Column(nullable = false)
+    @Column(nullable = false) 
     private String lastName;
 
     @Column(unique = true)
